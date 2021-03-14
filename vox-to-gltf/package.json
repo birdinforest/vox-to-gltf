@@ -1,0 +1,68 @@
+{
+  "_from": "vox-to-gltf",
+  "_id": "vox-to-gltf@0.6.2",
+  "_inBundle": false,
+  "_integrity": "sha512-3SLHmwYDPzTgwDgqzdBYZuvi0+AuqFjwkUqjmU9i0YBdqEDhUalOmVlF7jDNGWEtJs6oTO2z6K3U7JD8UCyuHQ==",
+  "_location": "/vox-to-gltf",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "vox-to-gltf",
+    "name": "vox-to-gltf",
+    "escapedName": "vox-to-gltf",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/vox-to-gltf/-/vox-to-gltf-0.6.2.tgz",
+  "_shasum": "b1edc700745803a69fd7f832b2348330f71194dd",
+  "_spec": "vox-to-gltf",
+  "_where": "/Users/forrrest/projects/vox-to-gltf",
+  "author": {
+    "name": "Florian Fechner"
+  },
+  "bugs": {
+    "url": "https://github.com/florianfe/vox-to-gltf.js/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "ndarray-ops": "^1.2.2",
+    "ramda": "^0.26.1",
+    "three": "^0.109.0",
+    "underscore": "^1.12.0",
+    "vblob": "^1.0.2",
+    "vox-reader": "^1.0.0",
+    "voxel-triangulation": "^1.0.2"
+  },
+  "deprecated": "it's not so useful to have a library for that which only works in the web browser",
+  "description": "converts [.vox](https://github.com/ephtracy/voxel-model/blob/master/MagicaVoxel-file-format-vox.txt) files \r which can be exported in [MagickaVoxel](https://ephtracy.github.io/) to [.gltf](https://github.com/KhronosGroup/glTF/tree/master/specification/2.0) files. \r It is using [three.js](https://github.com/mrdoob/three.js/), [vox-reader.js](https://github.com/FlorianFe/vox-reader.js) and \r [voxel-triangulation.js](https://github.com/FlorianFe/voxel-triangulation.js).",
+  "devDependencies": {
+    "webpack": "^4.41.1",
+    "webpack-cli": "^3.3.9"
+  },
+  "homepage": "https://github.com/florianfe/vox-to-gltf.js#readme",
+  "keywords": [
+    "voxel",
+    "magickavoxel",
+    "vox",
+    "gltf",
+    "model",
+    "conversion"
+  ],
+  "license": "MIT",
+  "main": "vox-to-gltf.js",
+  "name": "vox-to-gltf",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/florianfe/vox-to-gltf.js.git"
+  },
+  "scripts": {
+    "bundle": "webpack --config webpack.config.js"
+  },
+  "version": "0.6.2"
+}
